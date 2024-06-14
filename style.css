@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://st4.depositphotos.com/2627021/23128/i/450/depositphotos_231286280-stock-photo-happy-new-year-glitter-fireworks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+.countdown{
+    display: flex;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.year{
+    position:absolute;
+    bottom: 130px;
+    left: 600px;
+    font-size: 90px;
+    opacity: 0.9;
+}
+small{
+    font-size: 20px;
+}
+h1{
+    color: lightcoral;
+}
